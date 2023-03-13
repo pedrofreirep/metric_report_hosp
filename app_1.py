@@ -37,6 +37,7 @@ import io
 import os
 
 st.title('🏥 Binary Prediction for Hospitalizations - Metric Report')
+st.caption('Built with 🧠 by [Blue AI](https://blueai.com.br/)')
 
 st.markdown("Welcome to the **Binary Prediction for Hospitalizations - Metric Report**. First, **upload your data** at the sidebar on your left, as many datasets you want. Sencond, **build your analysis** by selecting the files you want to compare and the metrics you want to analyze. Right after that, the aggregate metrics should be presented automaticaly. We use F1, Precision, and Recall to evaluate our predictions for a specific class. The margin of error is usually used for regressions.")
 st.warning("**Important to have in mind!** \n\n Those are only the aggregate metrics, just one of the steps from the first level of our AI development sprint. In order to deploy the model that best fits our product, we should go further and analyze metrics per class aligned with the problem, document error patterns, search for local and global explanations, run what-if analysis, and perform other tasks to help our understanding of the model. \n\n You can find our complete AI development process [here](https://www.notion.so/blueai/aecd7f9ce3fb4aa38f24ee199ac1cacb?v=fc291161a84b42ef8f0084bbd9ef3991).", icon="⚠️")
